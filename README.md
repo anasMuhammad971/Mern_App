@@ -48,13 +48,8 @@ University students often discover clubs and events through scattered announceme
 
 ## Architecture Overview
 
-```text
-React + Vite Frontend
-  -> Axios API client
-  -> Express REST API
-  -> Mongoose Models
-  -> MongoDB Database
-```
+<img width="1146" height="639" alt="image" src="https://github.com/user-attachments/assets/5e1133bc-6f2a-4787-934c-f8e5dc3545b1" />
+
 
 The frontend is split into pages and reusable components. Pages manage screen-level state such as loading, filters, form input, and success messages. The API client in `frontend/src/api/apiClient.js` centralizes all HTTP calls.
 
